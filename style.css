@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;300;400 & display=swap');
+body {
+    font-family: "roboto", sans-serif
+}
+article {
+    text-align: center; 
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+h1 {
+    text-size-adjust: 2em;
+}
+.email {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(129, 129, 129);
+    width: 250px;
+    height: 50px;
+}
+.password {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(129, 129, 129);
+    width: 250px;
+    height: 50px;
+}
+.boton-entrar {
+    background: rgb(131, 131, 255);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(131, 131, 255);
+    width: 258px;
+    height: 50px;
+}
+.boton-olvide-pass {
+    
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: white;
+    border-color:rgb(93, 93, 93)
+}
