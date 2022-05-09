@@ -3,42 +3,55 @@ body {
     font-family: "roboto", sans-serif
 }
 article {
-    text-align: center; 
+    text-align: center;
+    border-style: solid;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 img {
     width: 100px;
     height: 100px;
-    border-radius: 50px;
+    border-radius: 75px;
+    margin: 15px;
 }
 h1 {
-    text-size-adjust: 2em;
+    font-size: 20px;
+    line-height: 50px;
 }
 .email {
     border-style: solid;
-    border-radius: 5px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: none;
     border-color: rgb(129, 129, 129);
     width: 250px;
     height: 50px;
 }
 .password {
     border-style: solid;
-    border-radius: 5px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
     border-color: rgb(129, 129, 129);
     width: 250px;
     height: 50px;
 }
 .boton-entrar {
-    background: rgb(131, 131, 255);
+    color: white;
+    margin: 20px;
+    background: rgb(0, 0, 255);
     border-radius: 5px;
     border-style: solid;
-    border-color: rgb(131, 131, 255);
+    border-color: rgb(0, 0, 255);
     width: 258px;
     height: 50px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .boton-olvide-pass {
-    
-    width: 150px;
-    height: 30px;
+    margin: 9px;
+    font-size: 9px;
+    width: 100 px;
+    height: 20px;
     border-radius: 15px;
     border-style: solid;
     background-color: white;
